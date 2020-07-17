@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+.detail-view {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    padding: 20px;
+    text-align: left;   
+    border-radius: 12px;
+    background-color:rgba(27, 27, 27, 1);;
+    color: white;
+    margin: 20px;
+    display: none;
+}
+body {
+    text-align: center;
+    align-content: center;
+    font-family: Poppins;
+    background-color: black;
+    color: white;
+    margin: 20px;
+}
+
+
+select {
+    background-color:rgba(0, 134, 255, 1);
+    padding: 20px;
+    border-radius: 12px;
+    margin: 0px 0px 0px 10px;
+    color: white;
+    border: none;
+}
+
+.settings-div {
+    position: fixed;
+    top: 20px;
+    padding: 0px 20px 0px 20px;
+    margin: 20px;
+    border-radius: 12px;
+    background-color:rgba(27, 27, 27, 1);
+    display: none;
+}
+
+.settings-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 12px;
+    background-color:rgba(27, 27, 27, 1);
+    height: 80px;
+    width: auto;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+}
+.settings-button img {
+    width: 40px;
+    height: 40px;
+    padding: 20px;
+    transition: transform .2s;
+}
+
+.settings-button img:hover {
+    transform: scale(1.1);
+}
+.ricks {
+    margin: 0 auto;
+}
+
+.character-card {
+    padding: 20px;
+    border-radius: 12px;
+    background-color:rgba(27, 27, 27, 0.596);
+    color: white;   
+    margin: 20px;
+    text-align: center;
+    display: inline-block
+}
+
+.character-card img {
+    border-radius: 12px;
+    margin-top: 20px;
+    width: 200px;
+}
+.detail-view-button {
+    width: 150px;
+    font-weight: bold;
+    color: rgb(0, 132, 255);
+    cursor: pointer;
+    margin-right: 10px;
+}
+a {
+    text-decoration: none;
+    color: rgb(0, 132, 255);
+    font-weight: bold;
+}
+
+header h2 {
+} 
+header img {
+    line-height: 96px;
+    vertical-align: middle;
+    margin-right: 20px;
+    width: 60px;
+}
+@media only screen and (min-width: 600px) {
+.character-card {
+    width: 30%;
+}
+.settings-div {
+    width: 20%;
+}
+@media only screen and (max-width: 600px) {
+.character-card {
+    width: 30%;
+}
+
+.settings-div {
+    width: 40%;
+}
+
+}
